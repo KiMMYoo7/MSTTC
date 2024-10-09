@@ -1,0 +1,195 @@
+/* copy ni masuk file interface bootstrap ni juga
+ <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome for icons (optional) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="header&footerAdmin.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+*/
+
+.navbar-custom {
+    background: linear-gradient(to right, black, #4D473C);
+    font-family: 'Radio Canada', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    /* Stick to the top */
+    z-index: 1000;
+    /* Ensure it's above other elements */
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    /* Auto margins to center the nav links */
+    text-align: center;
+    /* Center the nav links inside the container */
+
+
+}
+
+.nav-item {
+    margin-right: 20px;
+    /* Add margin between each nav item */
+}
+
+
+/* Nav link colors */
+.nav-link {
+    color: #D6B400;
+    /* Gold for all non-active links */
+    transition: transform 0.2s ease-in-out;
+    padding: 0px 0px;
+    /* Add vertical and horizontal padding */
+
+}
+
+
+/* Active link color */
+.navbar-nav .nav-link.active {
+    color: #FF7F50;
+    /* Set the active link color */
+}
+
+
+/* Hover effect to scale links */
+.navbar-custom .nav-link:hover {
+    transform: scale(2.5);
+    color: darkgoldenrod;
+    /* Change hover color to darkgoldenrod */
+}
+
+
+/* Optional: Adjust navbar brand text or image size */
+.navbar-brand {
+    font-family: 'Radio Canada', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+    /* Position brand to the left */
+}
+
+/* Navbar logo */
+.navbar-brand img {
+    height: 65px;
+    width: 210px;
+}
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(to right, black, #4D473C);
+    color: #D6B400;
+    margin-top: 30px;
+}
+
+footer h5 {
+    margin-bottom: 15px;
+    /* Space below headings */
+    margin-right: 0px;
+    color: #FF7F50;
+
+    text-align: center;
+}
+
+footer .list-unstyled {
+    padding-left: 0;
+    /* Remove default padding from the list */
+
+    text-align: center;
+}
+
+footer .list-unstyled li {
+    margin-bottom: 10px;
+    /* Space between list items */
+}
+
+.quick-link {
+    color: #D6B400;
+    /* Gold color for quick links */
+    text-decoration: none;
+    /* Remove underline from links */
+
+}
+
+.quick-link:hover {
+    color: darkgoldenrod;
+    /* Change hover color to darkgoldenrod */
+    transform: scale(1.5);
+    /* Scale bigger on hover */
+}
+
+footer a {
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+footer p,
+footer small {
+    margin: 0;
+    /* Remove default margins for better spacing */
+}
+
+footer .social-links {
+    margin-top: 10px;
+    /* Space below social links */
+}
+
+/* Increase the size of social media icons */
+.facebook-link i {
+    font-size: 40px;
+    /* Adjust the size as needed */
+    transition: transform 0.2s;
+    /* Transition for scaling effect */
+    color: blue;
+}
+
+.whatsapp-link i {
+    font-size: 40px;
+    /* Adjust the size as needed */
+    transition: transform 0.2s;
+    /* Transition for scaling effect */
+    color: forestgreen;
+}
+
+.facebook-link i:hover {
+    transform: scale(1.2);
+    /* Scale the icon on hover */
+}
+
+.whatsapp-link i:hover {
+    transform: scale(1.2);
+    /* Scale the icon on hover */
+}
+
+
+footer .col-md-4.text-center {
+    text-align: center;
+    /* Center text in this column */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    footer .col-md-4 {
+        margin-bottom: 20px;
+        /* Space between columns on smaller screens */
+    }
+}
